@@ -1,0 +1,54 @@
+#body 
+ {background-color: blueviolet}
+
+.title
+     { font-size: 3em;
+     color: crimson;}
+
+
+.logo
+     {width: 300px;
+     height: 300px;
+    }
+
+
+.cards
+     {border: 2px solid black;
+     width: fit-content;
+     padding: 1px 1em 2px 1em;
+    border-radius: 10%;
+transition: 1s;
+display: flex;
+flex-direction: column;
+gap: 2em;
+align-items: center;}
+
+.cards.cards:hover{
+    background-color: rgb(58, 177, 177);
+}
+
+
+#principal
+     { font-size: 4.5em;
+     color: blue;}
+
+
+
+#titulos
+     {width: 60vw;
+     margin: auto;
+     padding: 3em;
+      display: flex;
+    flex-direction: column;
+    align-items: center;}
+
+
+#cards-container 
+     {width: 85vw;
+     margin:auto;
+     margin-top: 1.5em;
+     border: 2px solid chocolate;
+     border-radius: 1.5%;
+     display: flex;
+     flex-direction: row;
+    justify-content: space-evenly; }
